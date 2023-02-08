@@ -7,7 +7,7 @@ const iotsdk = require('aws-iot-device-sdk-v2');
 const mqtt = iotsdk.mqtt;
 const TextDecoder = require('util').TextDecoder;
 const yargs = require('yargs');
-const common_args = require("C:\\Users\\pogliani.mattia\\Desktop\\Programmi\\pub_sub_js\\util\\cli_args.js");
+const common_args = require("C:\\Users\\dimucci.samuele\\Desktop\\backendAPIIOT\\util\\cli_args.js");
 
 yargs.command('*', false, (yargs) => {
     common_args.add_connection_establishment_arguments(yargs);
